@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+
+    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="download.css">
+    <link rel="stylesheet" href="index.css">
+   
+
+</head>
+<body background="contact.jpg">
+    <nav>
+        <div class="logo"><img src="logo.png" alt="logo" style="height: 100px; width: 100px; margin-left: 0px;"></div>
+        <div class="logo"><img src="logo2.png" alt="logo" style="height: 100px; width: 250px; margin-left: 5px;" ></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active"   href="download.html">Download</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a  href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="section">
+    <div id="body2">
+        <div class="w3-content w3-section" >
+            <img class="mySlides" src="text1.jpg" style="width:100%" height="450px">
+            <img class="mySlides" src="text2.jpg" style="width:100%" height="450px" >
+            <img class="mySlides" src="images.jpeg" style="width:100%" height="450px">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+          </div>
+          
+    <div class="download1">
+      <div class="text" >
+        <h1>Download Notes</h1><hr style="width: auto; margin-left: 20%; margin-right: 20%;">
+<p style=" color: #101ee0;
+font-size: 31px;
+margin-left: 5%;
+margin-right: 5%;
+text-align: center;" >
+    Now you can Download your Hand-Written Notes, on 100% free,
+    no hideen fees. Notes, Practical-file, Books is Provided for you,
+    don't worry about all that stuff, getting download is simple.
+    You can download Everythingwhich is provided in our site , 
+    So you should never worry about your exam or for the notes.</p>
+
+  </div>
+
+<div class="row">
+<div class="column">
+<div class="flip-box">
+<div class="flip-box-inner">
+<div class="flip-box-front">
+  <img src="html.png" alt="HTML" style="width:100%;height:100%">
+</div>
+<div class="flip-box-back">
+  <h2 style="padding: 4%;">HTML</h2><hr>
+  <p style="padding-top: 5%; text-align: center; margin: 8px;">The HyperText Markup Language, 
+    or HTML is the standard markup language for documents designed to be displayed in a web browser. 
+    It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. </p>
+    <a href="html.pdf" download target="_blank">
+    <button style='font-size:24px'>Download <i class='fa fa-html5'></i>
+      
+    </button></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="column">
+<div class="flip-box">
+<div class="flip-box-inner">
+<div class="flip-box-front">
+  <img src="sql.png" alt="Paris" style="width:100%;height:100%">
+</div>
+<div class="flip-box-back">
+  <h2 style="padding: 4%;">MySQL</h2><hr>
+  <p style="padding-top: 5%; text-align: center; margin: 8px;">MySQL is an open-source relational 
+    database management system. Its name is a combination of "My", the name of co-founder Michael
+     Widenius's daughter, and "SQL", the abbreviation for Structured Query Language. </p>
+     <a href="mysql.pdf" download target="_blank">
+     <button style='font-size:24px'>Download <i class='fa fa-database'></i></button></a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+    <div class="column">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="software.png" alt="Paris" style="width:300px;height:auto">
+    </div>
+    <div class="flip-box-back">
+      <h2 style="padding: 4%;">Software Testing</h2><hr>
+  <p style="padding-top: 5%; text-align: center; margin: 8px;">Software testing is an investigation 
+    conducted to provide stakeholders with information about the quality of the software product or 
+    service under test. </p>
+    <a href="Software testing.pdf" download target="_blank">
+    <button style='font-size:24px'>Download <i class='fa fa-check-circle'></i></button></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="column">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="ai.png" alt="Artificial" style="width:100%;height:100%">
+    </div>
+    <div class="flip-box-back">
+      <h2 style="padding: 4%;">Artificial Intelligence</h2><hr>
+  <p style="padding-top: 5%; text-align: center; margin: 8px;">Artificial intelligence (AI) is the
+     simulation of human intelligence processes by machines, especially computer systems. 
+     Specific applications of AI include expert systems, natural language processing (NLP), 
+     speech recognition and machine vision. </p>
+    <a href="ARTIFICIAL INTELLIGENCE.pdf" download target="_blank">
+      <button style='font-size:24px'>Download <i class='fa fa-check-circle'></i></button></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    </div>
+
+    <div class="row">
+        <div class="column">
+        <div class="flip-box">
+        <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="java.jpg" alt="Paris" style="width:100%;height:100%">
+        </div>
+        <div class="flip-box-back">
+          <h2 style="padding: 4%;">JAVA</h2><hr>
+          <p style="padding-top: 5%; text-align: center; margin: 8px;">Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS. </p>
+             <a href="JAVA.pdf" download target="_blank">
+              <button style='font-size:24px'>Download <i class='fa fa-check-circle'></i></button></a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="column">
+        <div class="flip-box">
+        <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="python.jpg" alt="Paris" style="width:100%;height:100%">
+        </div>
+        <div class="flip-box-back">
+          <h2 style="padding: 4%;">PYTHON</h2><hr>
+          <p style="padding-top: 5%; text-align: center; margin: 8px;">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. </p>
+            <a href="#" >
+              <button style='font-size:24px'>Download <i class='fa fa-check-circle'></i></button></a>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        
+        </div>
+
+
+<div class="section">
+  <div class="container">
+      
+      
+        
+      <div class="content-section">  
+                    
+<div class="socal">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="http://t.me/downloadnotesproject" class="telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+</div>
+      </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+</body>
+</html>

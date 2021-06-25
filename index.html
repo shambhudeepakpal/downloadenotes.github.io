@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><img src="logo.png" alt="logo" style="height: 100px; width: 100px; margin-left: 0px;"></div>
+        <div class="logo"><img src="logo2.png" alt="logo" style="height: 100px; width: 250px; margin-left: 5px;" ></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div id="body2">
+        <div class="w3-content w3-section" >
+            <img class="mySlides" src="text1.jpg" style="width:100%" height="450px">
+            <img class="mySlides" src="text2.jpg" style="width:100%" height="450px" >
+            <img class="mySlides" src="images.jpeg" style="width:100%" height="450px">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+          </div>
+          
+
+          <div class="section">
+            <div class="container">
+                
+                
+                  
+                <div class="content-section">  
+                              
+                <div class="title">
+                    <h1>About Us</h1>
+    
+                </div>
+                    <div class="content">
+                        <h3> We Have Almost Everything
+
+                        </h3>
+                        <p> 
+                            Our summaries and analyses are written by experts, 
+                            eNotes is a student and teacher educational website
+                            that provides material to help students complete homework 
+                            assignments and study for exams.</p>
+                            <div class="button">
+                                <a href="About.html">read more</a>
+                            </div>
+                    </div>
+                        
+                </div>
+                        <div class="image-section">
+                            <img src="about.jpeg" alt="">
+                        </div>
+    
+                        
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="container">
+                
+                
+                  
+                <div class="content-section">  
+                              
+                <div class="title">
+                    <h1>Download</h1>
+    
+                </div>
+                    <div class="content">
+                        <h3> Now you can Download 
+    
+                        </h3>
+                        <p> Now you can Download your Hand-Written Notes, on 100% free,
+                            no hideen fees. Notes, Practical-file, Books is Provided for you,
+                            don't worry about all that stuff, getting download is simple.
+                            You can download Everythingwhich is provided in our site , 
+                            So you should never worry about your exam or for the notes.</p>
+                            <div class="button">
+                                <a href="download.html">Download</a>
+                            </div>
+                    </div>
+                       
+                </div>
+                        <div class="image-section">
+                            <img src="download.jpeg" alt="">
+                        </div>
+    
+                        
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="container">
+                
+                
+                  
+                <div class="content-section">  
+                              
+                <div class="title">
+                    <h1>Contact-Us</h1>
+    
+                </div>
+                    <div class="content">
+                        <h3> We'd love to here from you 
+    
+                        </h3>
+                        <p> Whether you have a question about features, trials, pricing, need demo,
+                            or anything else , out team is ready to answer all your questions.
+
+                            </p>
+                            <div class="button">
+                                <a href="contact.html">Get in touch</a>
+                            </div>
+                    </div>
+                       
+                </div>
+                        <div class="image-section">
+                            <img src="contact1.jpg" alt="">
+                        </div>
+    
+                        
+            </div>
+        </div>
+        
+
+        <div class="section">
+            <div class="container">
+                
+                
+                  
+                <div class="content-section">  
+                              
+        <div class="socal">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+            <a href="http://t.me/downloadnotesproject" class="telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+        </div>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>

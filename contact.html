@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+   
+    
+
+    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>about</title>
+</head>
+<body style="background-image: url(contact.jpg);">
+    <nav>
+        <div class="logo"><img src="logo.png" alt="logo" style="height: 100px; width: 100px; margin-left: 0px;"></div>
+        <div class="logo"><img src="logo2.png" alt="logo" style="height: 100px; width: 250px; margin-left: 5px;" ></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a class="active"   href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="section">
+        <div class="container1">
+            
+            
+              
+            <div class="content-section">  
+                          
+            <div class="title">
+                <h1>Contact Us</h1>
+
+            </div>
+                <div class="content">
+                    <h3> Stay content with us
+
+                    </h3>
+                    <p>The clearly displayed contact information, 
+                        and the form below the fold for visitors who 
+                        want to get in touch with specific inquiries. 
+                    </p>
+                        <div class="socal">
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+                            <a href="http://t.me/downloadnotesproject" class="telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+                        </div>
+                </div>
+                    
+            </div>
+                    <div class="image-section">
+                        <div class="container">
+
+    
+                            <form method="post" autocomplete="off" name="google-sheet" >
+                              <label for="name">Name</label>
+                              <input type="text" id="name" Name="Name" placeholder="Your name.." required="required">
+                          
+                              
+                          
+                              <label for="email">E-mail</label>
+                              <input type="email" id="email" name="Email" placeholder="xyz@abc.com" required="required">
+                          
+                          
+                              <label for="message">Message</label>
+                              <textarea id="message" name="Message" placeholder="Write something.." required="required" style="height:100px" ></textarea>
+                          
+                              <input type="submit" value="Submit" name="submit">
+                            </form>
+                          </div>
+                          <script>
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbxBKzkoNlRoCrEEmCY1Kh5qpPgHPPmARwG3fhgYjV0lowN0IeEOAVdO1tIDS-3_SJyJtA/exec'
+                            const form = document.forms['google-sheet']
+                          
+                            form.addEventListener('submit', e => {
+                              e.preventDefault()
+                              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                                .catch(error => console.error('Error!', error.message))
+                            })
+                          </script>
+                          
+                          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                          
+
+                         
+                    </div>
+
+                    
+        </div>
+    </div>
+</body>
+</html>
